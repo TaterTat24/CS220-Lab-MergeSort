@@ -1,7 +1,7 @@
 /** 
  * ===========================================================
- * Name: 
- * Section: 
+ * Name: Benjamin Tat
+ * Section: T6
  * Project: Merge Sort
  * ===========================================================
  */
@@ -16,12 +16,24 @@
  * @brief Perform a mergesort on a portion of an array, from lBound
  * to rBound
  * @param numbers - the array to sort
- * @param lBound - the starting index of the sublist to sort
- * @param rBound - the ending index of the sublist to sort
+ * @param leftBound - the starting index of the sublist to sort
+ * @param rightBound - the ending index of the sublist to sort
  * @pre parameters are populated with proper values
  * @post numbers is sorted
  */
-void mergeSort(int numbers[], int lBound, int rBound);
+void mergeSort(int numbers[], int leftBound, int rightBound);
+
+/** -------------------------------------------------------------------
+ * @brief Perform a mergesort on a portion of an array, from lBound
+ * to rBound
+ * @param numbers - the array to sort
+ * @param leftBound - the starting index of the sublist to sort
+ * @param mid - the middle index of the sublist to sort
+ * @param rightBound - the ending index of the sublist to sort
+ * @pre parameters are populated with proper values
+ * @post numbers is sorted
+ */
+void merge(int numbers[], int leftBound, int mid, int rightBound);
 
 /** -------------------------------------------------------------------
  * @brief Fills an array with random values between 0 and 29

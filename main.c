@@ -1,7 +1,7 @@
 /** 
  * ===========================================================
- * Name: 
- * Section: 
+ * Name: Benjamin Tat
+ * Section: T6
  * Project: Merge Sorts
  * ===========================================================
  * Instructions:
@@ -18,7 +18,7 @@ int main() {
 
     // set up for and then seed random number generator
     srand((unsigned)(time(NULL)));  // use for development/debugging
-    //srand(2023); // uncomment for submission
+    srand(2023); // uncomment for submission
 
     /* 
      * TASK 0 - implement the function, mergeSort() 
